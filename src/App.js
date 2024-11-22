@@ -116,12 +116,31 @@ export function ProductRow({ product }) {
 export default function App() {
   const PRODUCTS = [
     { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
-    { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
+    { category: "Fruits", price: "$1.5", stocked: true, name: "Banana" },
     { category: "Fruits", price: "$2", stocked: false, name: "Passionfruit" },
-    { category: "Vegetables", price: "$2", stocked: true, name: "Spinach" },
+    { category: "Vegetables", price: "$3", stocked: true, name: "Spinach" },
     { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
-    { category: "Vegetables", price: "$1", stocked: true, name: "Peas" },
-  ];
+    { category: "Vegetables", price: "$2", stocked: true, name: "Carrot" },
+    { category: "Snacks", price: "$1", stocked: true, name: "Chips" },
+    { category: "Snacks", price: "$1.5", stocked: false, name: "Cookies" },
+    { category: "Drinks", price: "$3", stocked: true, name: "Water Bottle" },
+    { category: "Drinks", price: "$5", stocked: true, name: "Orange Juice" },
+    { category: "Drinks", price: "$2", stocked: false, name: "Soda" },
+    { category: "Fruits", price: "$1", stocked: true, name: "Mango" },
+    { category: "Vegetables", price: "$2.5", stocked: true, name: "Broccoli" },
+    { category: "Vegetables", price: "$3.5", stocked: true, name: "Lettuce" },
+    { category: "Fruits", price: "$1.8", stocked: true, name: "Peach" },
+    { category: "Fruits", price: "$2.5", stocked: true, name: "Pineapple" },
+    { category: "Vegetables", price: "$1.2", stocked: false, name: "Onion" },
+    { category: "Vegetables", price: "$2.8", stocked: true, name: "Cabbage" },
+    { category: "Snacks", price: "$3", stocked: false, name: "Nachos" },
+    { category: "Snacks", price: "$2.5", stocked: true, name: "Popcorn" },
+    { category: "Drinks", price: "$6", stocked: true, name: "Green Tea" },
+    { category: "Drinks", price: "$3.2", stocked: false, name: "Lemonade" },
+    { category: "Fruits", price: "$2.3", stocked: true, name: "Strawberries" },
+    { category: "Snacks", price: "$4", stocked: true, name: "Granola Bar" },
+];
+
 
   return <FilterProductTable products={PRODUCTS} />;
 }

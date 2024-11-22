@@ -45,7 +45,6 @@ body {
   color: #333;
 }
 
-/* Container styling */
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -55,7 +54,6 @@ body {
   border-radius: 8px;
 }
 
-/* Table styling */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -78,7 +76,6 @@ td span {
   color: red;
 }
 
-/* Input and label styling */
 form {
   display: flex;
   flex-direction: column;
@@ -101,9 +98,9 @@ input[type="checkbox"] {
   transform: scale(1.2);
 }
 
-/* No items found message */
 .no-items {
   text-align: center;
   color: gray;
   margin-top: 20px;
+  font-size: 16px;
 }
